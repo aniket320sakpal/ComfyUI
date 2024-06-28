@@ -1,0 +1,67 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-06-28 02:39] ** ComfyUI startup time: 2024-06-28 02:39:23.801229
+[2024-06-28 02:39] ** Platform: Darwin
+[2024-06-28 02:39] ** Python version: 3.11.7 (main, Dec 15 2023, 12:09:56) [Clang 14.0.6 ]
+[2024-06-28 02:39] ** Python executable: /opt/anaconda3/bin/python
+[2024-06-28 02:39] ** ComfyUI Path: /Users/asakpal/ComfyUI/main.py
+[2024-06-28 02:39] ** Log path: /Users/asakpal/ComfyUI/comfyui.log
+[2024-06-28 02:39] 
+Prestartup times for custom nodes:
+[2024-06-28 02:39]   10.0 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-06-28 02:39] 
+Total VRAM 32768 MB, total RAM 32768 MB
+[2024-06-28 02:39] pytorch version: 2.5.0.dev20240613
+[2024-06-28 02:39] Set vram state to: SHARED
+[2024-06-28 02:39] Device: mps
+[2024-06-28 02:39] /opt/anaconda3/lib/python3.11/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: 'dlopen(/opt/anaconda3/lib/python3.11/site-packages/torchvision/image.so, 0x0006): Symbol not found: __ZN3c1017RegisterOperatorsD1Ev
+  Referenced from: <CFED5F8E-EC3F-36FD-AAA3-2C6C7F8D3DD9> /opt/anaconda3/lib/python3.11/site-packages/torchvision/image.so
+  Expected in:     <DD331F32-AFC8-3339-B3D0-A55F0067D44D> /opt/anaconda3/lib/python3.11/site-packages/torch/lib/libtorch_cpu.dylib'If you don't plan on using image functionality from `torchvision.io`, you can ignore this warning. Otherwise, there might be something wrong with your environment. Did you have `libjpeg` or `libpng` installed before building `torchvision` from source?
+  warn(
+[2024-06-28 02:39] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-06-28 02:39] /opt/anaconda3/lib/python3.11/site-packages/kornia/feature/lightglue.py:44: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  @torch.cuda.amp.custom_fwd(cast_inputs=torch.float32)
+[2024-06-28 02:39] ### Loading: ComfyUI-Manager (V2.43)
+[2024-06-28 02:39] ### ComfyUI Revision: 2303 [0d9009c9] | Released on '2024-06-28'
+[2024-06-28 02:39] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-06-28 02:39] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-06-28 02:39] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-06-28 02:39] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-06-28 02:39] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-06-28 02:39] ------------------------------------------
+[2024-06-28 02:39] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-06-28 02:39] ------------------------------------------
+[2024-06-28 02:39] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-06-28 02:39] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-06-28 02:39] ------------------------------------------
+[2024-06-28 02:39] 
+Import times for custom nodes:
+[2024-06-28 02:39]    0.0 seconds: /Users/asakpal/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-06-28 02:39]    0.0 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyMath
+[2024-06-28 02:39]    0.3 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-06-28 02:39]    1.3 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes
+[2024-06-28 02:39]    8.0 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
+[2024-06-28 02:39] 
+[2024-06-28 02:39] Starting server
+
+[2024-06-28 02:39] To see the GUI go to: http://127.0.0.1:8188
+[2024-06-28 02:40] FETCH DATA from: /Users/asakpal/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json [DONE]
+[2024-06-28 02:40] got prompt
+[2024-06-28 02:40] model_type V_PREDICTION_EDM
+[2024-06-28 02:40] Using split attention in VAE
+[2024-06-28 02:40] Using split attention in VAE
+[2024-06-28 02:40] Input image resolution: 1733x1155
+[2024-06-28 02:40] Selected SDXL resolution: 1216x832
+[2024-06-28 02:40] Using split attention in VAE
+[2024-06-28 02:40] Using split attention in VAE
+[2024-06-28 02:40] Requested to load CLIPVisionModelProjection
+[2024-06-28 02:40] Loading 1 new model
+[2024-06-28 02:40] Requested to load AutoencoderKL
+[2024-06-28 02:40] Loading 1 new model
+[2024-06-28 02:40] Requested to load SVD_img2vid
+[2024-06-28 02:40] Loading 1 new model
+[2024-06-28 02:44] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [03:18<00:00, 51.53s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [03:18<00:00, 49.66s/it]
+[2024-06-28 02:44] Requested to load AutoencoderKL
+[2024-06-28 02:44] Loading 1 new model
+[2024-06-28 02:44] Prompt executed in 236.51 seconds
+[2024-06-28 02:50] 
+Stopped server

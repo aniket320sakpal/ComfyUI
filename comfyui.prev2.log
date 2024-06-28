@@ -1,0 +1,92 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-06-28 02:20] ** ComfyUI startup time: 2024-06-28 02:20:49.889872
+[2024-06-28 02:20] ** Platform: Darwin
+[2024-06-28 02:20] ** Python version: 3.11.7 (main, Dec 15 2023, 12:09:56) [Clang 14.0.6 ]
+[2024-06-28 02:20] ** Python executable: /opt/anaconda3/bin/python
+[2024-06-28 02:20] ** ComfyUI Path: /Users/asakpal/ComfyUI/main.py
+[2024-06-28 02:20] ** Log path: /Users/asakpal/ComfyUI/comfyui.log
+[2024-06-28 02:20] 
+Prestartup times for custom nodes:
+[2024-06-28 02:20]   11.9 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-06-28 02:20] 
+Total VRAM 32768 MB, total RAM 32768 MB
+[2024-06-28 02:20] pytorch version: 2.5.0.dev20240613
+[2024-06-28 02:20] Set vram state to: SHARED
+[2024-06-28 02:20] Device: mps
+[2024-06-28 02:20] /opt/anaconda3/lib/python3.11/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: 'dlopen(/opt/anaconda3/lib/python3.11/site-packages/torchvision/image.so, 0x0006): Symbol not found: __ZN3c1017RegisterOperatorsD1Ev
+  Referenced from: <CFED5F8E-EC3F-36FD-AAA3-2C6C7F8D3DD9> /opt/anaconda3/lib/python3.11/site-packages/torchvision/image.so
+  Expected in:     <DD331F32-AFC8-3339-B3D0-A55F0067D44D> /opt/anaconda3/lib/python3.11/site-packages/torch/lib/libtorch_cpu.dylib'If you don't plan on using image functionality from `torchvision.io`, you can ignore this warning. Otherwise, there might be something wrong with your environment. Did you have `libjpeg` or `libpng` installed before building `torchvision` from source?
+  warn(
+[2024-06-28 02:21] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-06-28 02:21] /opt/anaconda3/lib/python3.11/site-packages/kornia/feature/lightglue.py:44: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  @torch.cuda.amp.custom_fwd(cast_inputs=torch.float32)
+[2024-06-28 02:21] ### Loading: ComfyUI-Manager (V2.43)
+[2024-06-28 02:21] ### ComfyUI Revision: 2303 [0d9009c9] | Released on '2024-06-28'
+[2024-06-28 02:21] [VideoHelperSuite] - [0;33mWARNING[0m - Failed to import imageio_ffmpeg
+[2024-06-28 02:21] [VideoHelperSuite] - [0;31mERROR[0m - No valid ffmpeg found.
+[2024-06-28 02:21] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-06-28 02:21] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-06-28 02:21] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-06-28 02:21] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-06-28 02:21] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-06-28 02:21] ------------------------------------------
+[2024-06-28 02:21] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-06-28 02:21] ------------------------------------------
+[2024-06-28 02:21] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-06-28 02:21] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-06-28 02:21] ------------------------------------------
+[2024-06-28 02:21] 
+Import times for custom nodes:
+[2024-06-28 02:21]    0.0 seconds: /Users/asakpal/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-06-28 02:21]    0.0 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyMath
+[2024-06-28 02:21]    0.3 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
+[2024-06-28 02:21]    0.5 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-06-28 02:21]    1.7 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes
+[2024-06-28 02:21] 
+[2024-06-28 02:21] Starting server
+
+[2024-06-28 02:21] To see the GUI go to: http://127.0.0.1:8188
+[2024-06-28 02:21] FETCH DATA from: /Users/asakpal/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json [DONE]
+[2024-06-28 02:21] got prompt
+[2024-06-28 02:21] model_type V_PREDICTION_EDM
+[2024-06-28 02:21] Using split attention in VAE
+[2024-06-28 02:21] Using split attention in VAE
+[2024-06-28 02:21] Input image resolution: 1733x1155
+[2024-06-28 02:21] Selected SDXL resolution: 1216x832
+[2024-06-28 02:21] Using split attention in VAE
+[2024-06-28 02:21] Using split attention in VAE
+[2024-06-28 02:21] Requested to load CLIPVisionModelProjection
+[2024-06-28 02:21] Loading 1 new model
+[2024-06-28 02:21] Requested to load AutoencoderKL
+[2024-06-28 02:21] Loading 1 new model
+[2024-06-28 02:22] Requested to load SVD_img2vid
+[2024-06-28 02:22] Loading 1 new model
+[2024-06-28 02:25] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [03:13<00:00, 50.27s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [03:13<00:00, 48.38s/it]
+[2024-06-28 02:25] Requested to load AutoencoderKL
+[2024-06-28 02:25] Loading 1 new model
+[2024-06-28 02:25] !!! Exception during processing!!! ffmpeg is required for video outputs and could not be found.
+In order to use video outputs, you must either:
+- Install imageio-ffmpeg with pip,
+- Place a ffmpeg executable in /Users/asakpal/ComfyUI, or
+- Install ffmpeg and add it to the system path.
+[2024-06-28 02:25] Traceback (most recent call last):
+  File "/Users/asakpal/ComfyUI/execution.py", line 151, in recursive_execute
+    output_data, output_ui = get_output_data(obj, input_data_all)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asakpal/ComfyUI/execution.py", line 81, in get_output_data
+    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asakpal/ComfyUI/execution.py", line 74, in map_node_over_list
+    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asakpal/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite/videohelpersuite/nodes.py", line 382, in combine_video
+    raise ProcessLookupError(f"ffmpeg is required for video outputs and could not be found.\nIn order to use video outputs, you must either:\n- Install imageio-ffmpeg with pip,\n- Place a ffmpeg executable in {os.path.abspath('')}, or\n- Install ffmpeg and add it to the system path.")
+ProcessLookupError: ffmpeg is required for video outputs and could not be found.
+In order to use video outputs, you must either:
+- Install imageio-ffmpeg with pip,
+- Place a ffmpeg executable in /Users/asakpal/ComfyUI, or
+- Install ffmpeg and add it to the system path.
+
+[2024-06-28 02:25] Prompt executed in 225.84 seconds
+[2024-06-28 02:26] 
+Stopped server
