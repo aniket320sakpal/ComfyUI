@@ -1,0 +1,62 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-06-28 03:01] ** ComfyUI startup time: 2024-06-28 03:01:14.792881
+[2024-06-28 03:01] ** Platform: Darwin
+[2024-06-28 03:01] ** Python version: 3.11.7 (main, Dec 15 2023, 12:09:56) [Clang 14.0.6 ]
+[2024-06-28 03:01] ** Python executable: /opt/anaconda3/bin/python
+[2024-06-28 03:01] ** ComfyUI Path: /Users/asakpal/ComfyUI/ComfyUI-to-Python-Extension/svd_workflow_api.py
+[2024-06-28 03:01] ** Log path: /Users/asakpal/ComfyUI/ComfyUI-to-Python-Extension/comfyui.log
+[2024-06-28 03:01] 
+Prestartup times for custom nodes:
+[2024-06-28 03:01]    1.0 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-06-28 03:01] 
+Total VRAM 32768 MB, total RAM 32768 MB
+[2024-06-28 03:01] pytorch version: 2.5.0.dev20240613
+[2024-06-28 03:01] Set vram state to: SHARED
+[2024-06-28 03:01] Device: mps
+[2024-06-28 03:01] /opt/anaconda3/lib/python3.11/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: 'dlopen(/opt/anaconda3/lib/python3.11/site-packages/torchvision/image.so, 0x0006): Symbol not found: __ZN3c1017RegisterOperatorsD1Ev
+  Referenced from: <CFED5F8E-EC3F-36FD-AAA3-2C6C7F8D3DD9> /opt/anaconda3/lib/python3.11/site-packages/torchvision/image.so
+  Expected in:     <DD331F32-AFC8-3339-B3D0-A55F0067D44D> /opt/anaconda3/lib/python3.11/site-packages/torch/lib/libtorch_cpu.dylib'If you don't plan on using image functionality from `torchvision.io`, you can ignore this warning. Otherwise, there might be something wrong with your environment. Did you have `libjpeg` or `libpng` installed before building `torchvision` from source?
+  warn(
+[2024-06-28 03:01] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-06-28 03:01] Could not find the extra_model_paths config file.
+[2024-06-28 03:01] /opt/anaconda3/lib/python3.11/site-packages/kornia/feature/lightglue.py:44: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  @torch.cuda.amp.custom_fwd(cast_inputs=torch.float32)
+[2024-06-28 03:01] ### Loading: ComfyUI-Manager (V2.43)
+[2024-06-28 03:01] ### ComfyUI Revision: 2303 [0d9009c9] | Released on '2024-06-28'
+[2024-06-28 03:01] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-06-28 03:01] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-06-28 03:01] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-06-28 03:01] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-06-28 03:01] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-06-28 03:01] ------------------------------------------
+[2024-06-28 03:01] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-06-28 03:01] ------------------------------------------
+[2024-06-28 03:01] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-06-28 03:01] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-06-28 03:01] ------------------------------------------
+[2024-06-28 03:01] 
+Import times for custom nodes:
+[2024-06-28 03:01]    0.0 seconds: /Users/asakpal/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-06-28 03:01]    0.0 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyMath
+[2024-06-28 03:01]    0.3 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-06-28 03:01]    0.3 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes
+[2024-06-28 03:01]    0.3 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
+[2024-06-28 03:01] 
+[2024-06-28 03:01] Input image resolution: 1733x1155
+[2024-06-28 03:01] Selected SDXL resolution: 1216x832
+[2024-06-28 03:01] model_type V_PREDICTION_EDM
+[2024-06-28 03:01] Using split attention in VAE
+[2024-06-28 03:01] Using split attention in VAE
+[2024-06-28 03:01] Using split attention in VAE
+[2024-06-28 03:01] Using split attention in VAE
+[2024-06-28 03:01] Requested to load CLIPVisionModelProjection
+[2024-06-28 03:01] Loading 1 new model
+[2024-06-28 03:01] Requested to load AutoencoderKL
+[2024-06-28 03:01] Loading 1 new model
+[2024-06-28 03:01] Requested to load SVD_img2vid
+[2024-06-28 03:01] Loading 1 new model
+[2024-06-28 03:05] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [04:24<00:00, 72.47s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [04:24<00:00, 66.08s/it]
+[2024-06-28 03:05] Requested to load AutoencoderKL
+[2024-06-28 03:05] Loading 1 new model
+[2024-06-28 03:06] [VideoHelperSuite] - [0;33mWARNING[0m - Extra format values were not provided, the following defaults will be used: {'pix_fmt': 'yuv420p', 'crf': 19, 'save_metadata': True}
+This is likely due to usage of ComfyUI-to-python. These values can be manually set by supplying a manual_format_widgets argument

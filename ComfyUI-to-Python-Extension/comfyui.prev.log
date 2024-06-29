@@ -1,0 +1,171 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-06-28 02:51] ** ComfyUI startup time: 2024-06-28 02:51:09.973198
+[2024-06-28 02:51] ** Platform: Darwin
+[2024-06-28 02:51] ** Python version: 3.11.7 (main, Dec 15 2023, 12:09:56) [Clang 14.0.6 ]
+[2024-06-28 02:51] ** Python executable: /opt/anaconda3/bin/python
+[2024-06-28 02:51] ** ComfyUI Path: /Users/asakpal/ComfyUI/ComfyUI-to-Python-Extension/svd_workflow_api.py
+[2024-06-28 02:51] ** Log path: /Users/asakpal/ComfyUI/ComfyUI-to-Python-Extension/comfyui.log
+[2024-06-28 02:51] 
+Prestartup times for custom nodes:
+[2024-06-28 02:51]   11.5 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-06-28 02:51] 
+Total VRAM 32768 MB, total RAM 32768 MB
+[2024-06-28 02:51] pytorch version: 2.5.0.dev20240613
+[2024-06-28 02:51] Set vram state to: SHARED
+[2024-06-28 02:51] Device: mps
+[2024-06-28 02:51] /opt/anaconda3/lib/python3.11/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: 'dlopen(/opt/anaconda3/lib/python3.11/site-packages/torchvision/image.so, 0x0006): Symbol not found: __ZN3c1017RegisterOperatorsD1Ev
+  Referenced from: <CFED5F8E-EC3F-36FD-AAA3-2C6C7F8D3DD9> /opt/anaconda3/lib/python3.11/site-packages/torchvision/image.so
+  Expected in:     <DD331F32-AFC8-3339-B3D0-A55F0067D44D> /opt/anaconda3/lib/python3.11/site-packages/torch/lib/libtorch_cpu.dylib'If you don't plan on using image functionality from `torchvision.io`, you can ignore this warning. Otherwise, there might be something wrong with your environment. Did you have `libjpeg` or `libpng` installed before building `torchvision` from source?
+  warn(
+[2024-06-28 02:51] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-06-28 02:51] Could not find the extra_model_paths config file.
+[2024-06-28 02:51] /opt/anaconda3/lib/python3.11/site-packages/kornia/feature/lightglue.py:44: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  @torch.cuda.amp.custom_fwd(cast_inputs=torch.float32)
+[2024-06-28 02:51] ### Loading: ComfyUI-Manager (V2.43)
+[2024-06-28 02:51] ### ComfyUI Revision: 2303 [0d9009c9] | Released on '2024-06-28'
+[2024-06-28 02:51] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-06-28 02:51] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-06-28 02:51] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-06-28 02:51] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-06-28 02:51] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-06-28 02:51] ------------------------------------------
+[2024-06-28 02:51] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-06-28 02:51] ------------------------------------------
+[2024-06-28 02:51] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-06-28 02:51] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-06-28 02:51] ------------------------------------------
+[2024-06-28 02:51] 
+Import times for custom nodes:
+[2024-06-28 02:51]    0.0 seconds: /Users/asakpal/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-06-28 02:51]    0.1 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyMath
+[2024-06-28 02:51]    0.4 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-06-28 02:51]    1.3 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes
+[2024-06-28 02:51]    1.5 seconds: /Users/asakpal/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
+[2024-06-28 02:51] 
+[2024-06-28 02:51] Input image resolution: 1733x1155
+[2024-06-28 02:51] Selected SDXL resolution: 1216x832
+[2024-06-28 02:51] model_type V_PREDICTION_EDM
+[2024-06-28 02:51] Using split attention in VAE
+[2024-06-28 02:51] Using split attention in VAE
+[2024-06-28 02:51] Using split attention in VAE
+[2024-06-28 02:51] Using split attention in VAE
+[2024-06-28 02:51] Requested to load CLIPVisionModelProjection
+[2024-06-28 02:51] Loading 1 new model
+[2024-06-28 02:51] Requested to load AutoencoderKL
+[2024-06-28 02:51] Loading 1 new model
+[2024-06-28 02:51] Requested to load SVD_img2vid
+[2024-06-28 02:51] Loading 1 new model
+[2024-06-28 02:57] 
+[2024-06-28 02:57] Traceback (most recent call last):
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/ComfyUI-to-Python-Extension/svd_workflow_api.py", line 190, in <module>
+[2024-06-28 02:57]     main()
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/ComfyUI-to-Python-Extension/svd_workflow_api.py", line 159, in main
+[2024-06-28 02:57]     ksampler_38 = ksampler.sample(
+[2024-06-28 02:57]                   ^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/nodes.py", line 1371, in sample
+[2024-06-28 02:57]     return common_ksampler(model, seed, steps, cfg, sampler_name, scheduler, positive, negative, latent_image, denoise=denoise)
+[2024-06-28 02:57]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/nodes.py", line 1341, in common_ksampler
+[2024-06-28 02:57]     samples = comfy.sample.sample(model, noise, steps, cfg, sampler_name, scheduler, positive, negative, latent_image,
+[2024-06-28 02:57]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/sample.py", line 43, in sample
+[2024-06-28 02:57]     samples = sampler.sample(noise, positive, negative, cfg=cfg, latent_image=latent_image, start_step=start_step, last_step=last_step, force_full_denoise=force_full_denoise, denoise_mask=noise_mask, sigmas=sigmas, callback=callback, disable_pbar=disable_pbar, seed=seed)
+[2024-06-28 02:57]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/samplers.py", line 795, in sample
+[2024-06-28 02:57]     return sample(self.model, noise, positive, negative, cfg, self.device, sampler, sigmas, self.model_options, latent_image=latent_image, denoise_mask=denoise_mask, callback=callback, disable_pbar=disable_pbar, seed=seed)
+[2024-06-28 02:57]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/samplers.py", line 697, in sample
+[2024-06-28 02:57]     return cfg_guider.sample(noise, latent_image, sampler, sigmas, denoise_mask, callback, disable_pbar, seed)
+[2024-06-28 02:57]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/samplers.py", line 684, in sample
+[2024-06-28 02:57]     output = self.inner_sample(noise, latent_image, device, sampler, sigmas, denoise_mask, callback, disable_pbar, seed)
+[2024-06-28 02:57]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/samplers.py", line 663, in inner_sample
+[2024-06-28 02:57]     samples = sampler.sample(self, sigmas, extra_args, callback, noise, latent_image, denoise_mask, disable_pbar)
+[2024-06-28 02:57]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/samplers.py", line 568, in sample
+[2024-06-28 02:57]     samples = self.sampler_function(model_k, noise, sigmas, extra_args=extra_args, callback=k_callback, disable=disable_pbar, **self.extra_options)
+[2024-06-28 02:57]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/opt/anaconda3/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+[2024-06-28 02:57]     return func(*args, **kwargs)
+[2024-06-28 02:57]            ^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/k_diffusion/sampling.py", line 143, in sample_euler
+[2024-06-28 02:57]     denoised = model(x, sigma_hat * s_in, **extra_args)
+[2024-06-28 02:57]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/samplers.py", line 291, in __call__
+[2024-06-28 02:57]     out = self.inner_model(x, sigma, model_options=model_options, seed=seed)
+[2024-06-28 02:57]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/samplers.py", line 650, in __call__
+[2024-06-28 02:57]     return self.predict_noise(*args, **kwargs)
+[2024-06-28 02:57]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/samplers.py", line 653, in predict_noise
+[2024-06-28 02:57]     return sampling_function(self.inner_model, x, timestep, self.conds.get("negative", None), self.conds.get("positive", None), self.cfg, model_options=model_options, seed=seed)
+[2024-06-28 02:57]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/samplers.py", line 277, in sampling_function
+[2024-06-28 02:57]     out = calc_cond_batch(model, conds, x, timestep, model_options)
+[2024-06-28 02:57]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/samplers.py", line 226, in calc_cond_batch
+[2024-06-28 02:57]     output = model.apply_model(input_x, timestep_, **c).chunk(batch_chunks)
+[2024-06-28 02:57]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/model_base.py", line 113, in apply_model
+[2024-06-28 02:57]     model_output = self.diffusion_model(xc, t, context=context, control=control, transformer_options=transformer_options, **extra_conds).float()
+[2024-06-28 02:57]                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/opt/anaconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+[2024-06-28 02:57]     return self._call_impl(*args, **kwargs)
+[2024-06-28 02:57]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/opt/anaconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+[2024-06-28 02:57]     return forward_call(*args, **kwargs)
+[2024-06-28 02:57]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/ldm/modules/diffusionmodules/openaimodel.py", line 852, in forward
+[2024-06-28 02:57]     h = forward_timestep_embed(module, h, emb, context, transformer_options, time_context=time_context, num_video_frames=num_video_frames, image_only_indicator=image_only_indicator)
+[2024-06-28 02:57]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/ldm/modules/diffusionmodules/openaimodel.py", line 40, in forward_timestep_embed
+[2024-06-28 02:57]     x = layer(x, context, time_context, num_video_frames, image_only_indicator, transformer_options)
+[2024-06-28 02:57]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/opt/anaconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+[2024-06-28 02:57]     return self._call_impl(*args, **kwargs)
+[2024-06-28 02:57]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/opt/anaconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+[2024-06-28 02:57]     return forward_call(*args, **kwargs)
+[2024-06-28 02:57]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/ldm/modules/attention.py", line 839, in forward
+[2024-06-28 02:57]     x = block(
+[2024-06-28 02:57]         ^^^^^^
+[2024-06-28 02:57]   File "/opt/anaconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+[2024-06-28 02:57]     return self._call_impl(*args, **kwargs)
+[2024-06-28 02:57]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/opt/anaconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+[2024-06-28 02:57]     return forward_call(*args, **kwargs)
+[2024-06-28 02:57]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/ldm/modules/attention.py", line 581, in forward
+[2024-06-28 02:57]     n = self.attn1(n, context=context_attn1, value=value_attn1)
+[2024-06-28 02:57]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/opt/anaconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+[2024-06-28 02:57]     return self._call_impl(*args, **kwargs)
+[2024-06-28 02:57]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/opt/anaconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+[2024-06-28 02:57]     return forward_call(*args, **kwargs)
+[2024-06-28 02:57]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/ldm/modules/attention.py", line 475, in forward
+[2024-06-28 02:57]     out = optimized_attention(q, k, v, self.heads, attn_precision=self.attn_precision)
+[2024-06-28 02:57]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/ldm/modules/attention.py", line 205, in attention_sub_quad
+[2024-06-28 02:57]     hidden_states = efficient_dot_product_attention(
+[2024-06-28 02:57]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/ldm/modules/sub_quadratic_attention.py", line 266, in efficient_dot_product_attention
+[2024-06-28 02:57]     res = torch.cat([
+[2024-06-28 02:57]                     ^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/ldm/modules/sub_quadratic_attention.py", line 267, in <listcomp>
+[2024-06-28 02:57]     compute_query_chunk_attn(
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/ldm/modules/sub_quadratic_attention.py", line 124, in _query_chunk_attention
+[2024-06-28 02:57]     chunks: List[AttnChunk] = [
+[2024-06-28 02:57]                               ^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/ldm/modules/sub_quadratic_attention.py", line 125, in <listcomp>
+[2024-06-28 02:57]     chunk_scanner(chunk, mask) for chunk in torch.arange(0, k_tokens, kv_chunk_size)
+[2024-06-28 02:57]     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/ldm/modules/sub_quadratic_attention.py", line 122, in chunk_scanner
+[2024-06-28 02:57]     return summarize_chunk(query, key_chunk, value_chunk, mask=mask)
+[2024-06-28 02:57]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-06-28 02:57]   File "/Users/asakpal/ComfyUI/comfy/ldm/modules/sub_quadratic_attention.py", line 91, in _summarize_chunk
+[2024-06-28 02:57]     torch.exp(attn_weights, out=attn_weights)
+[2024-06-28 02:57] KeyboardInterrupt
